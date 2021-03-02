@@ -1,0 +1,19 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: D:\Desktop\Edgeless\启动盘制作工具训练场\core\PartAssist\PartAssist.exe
+Product Name: Windows 10 Enterprise
+Service Package: 
+OS Version: 6.3
+Total Memory: 16271 MB
+Available Memory: 9880 MB
+System Root: C:\Windows
+Processor Architecture: AMD64
+Processor Number: 12
+Current Time: 2020-3-13 15:39:20
+================================================================
+
+[0       ]Utility.cpp(257): 64-bit operating system.
+[2       ]MRP.cpp(1020): Failed to copy ampa.exe.
+AOMEI Partition Assistant 6.1.2 Technician Edition
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.

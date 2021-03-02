@@ -1,0 +1,46 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: D:\Desktop\Edgeless\启动盘制作工具训练场\core\PartAssist\PartAssist.exe
+Product Name: Windows 10 Enterprise
+Service Package: 
+OS Version: 6.3
+Total Memory: 16271 MB
+Available Memory: 11731 MB
+System Root: C:\Windows
+Processor Architecture: AMD64
+Processor Number: 12
+Current Time: 2020-7-6 16:7:8
+================================================================
+
+[0       ]Utility.cpp(257): 64-bit operating system.
+[2       ]MRP.cpp(1020): Failed to copy ampa.exe.
+AOMEI Partition Assistant 6.1.2 Technician Edition
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		1953525168 (931.51GB)	(121601,255,63,512)		HGST HTS541010B7E610 (GPT Disk)
+1		500118192 (238.47GB)	(31130,255,63,512)		SAMSUNG MZVPW256HEGL-000H1 (GPT Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		Other       	262144     (128.00MB)	0          (0KB)	262144     (128.00MB)	None                	GPT,MSR		34             		262177         (16,81,35)		0           (0,0,35)			0		
+0	2		D:		NTFS(3.1)   	976629759  (465.69GB)	409465056  (195.25GB)	567164703  (270.45GB)	None                	GPT,Data		264192         		976893951      (60808,213,13)		0           (16,113,34)			8		Relys
+0	3		E:		NTFS(3.1)   	976631182  (465.69GB)	470760344  (224.48GB)	505870838  (241.22GB)	None                	GPT,Data		976893952      		1953525134     (121601,80,30)		0           (60808,213,14)			8		WorkStation
+
+1	1		*:		FAT32       	204800     (100.00MB)	62340      (30.44MB)	142460     (69.56MB)	Sys                 	GPT,EFI		2048           		206847         (12,223,19)		0           (0,32,33)			2		
+1	2		*:		Other       	32768      (16.00MB)	0          (0KB)	32768      (16.00MB)	None                	GPT,MSR		206848         		239615         (14,233,27)		0           (12,223,20)			0		
+1	3		C:		NTFS(3.1)   	498730574  (237.81GB)	200889824  (95.79GB)	297840750  (142.02GB)	Boot                	GPT,Data		239616         		498970190      (31059,116,48)		0           (14,233,28)			8		
+1	4		*:		NTFS(3.1)   	1144831    (559.00MB)	963120     (470.27MB)	181711     (88.73MB)	None                	GPT,WRE		498970624      		500115455      (31130,190,36)		0           (31059,123,41)			8		
+

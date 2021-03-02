@@ -1,0 +1,183 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: D:\Desktop\Edgeless\Æô¶¯ÅÌÖÆ×÷¹¤¾ßÑµÁ·³¡\core\PartAssist\PartAssist.exe
+Product Name: Windows 10 Enterprise
+Service Package: 
+OS Version: 6.3
+Total Memory: 16271 MB
+Available Memory: 12056 MB
+System Root: C:\Windows
+Processor Architecture: AMD64
+Processor Number: 12
+Current Time: 2020-5-7 12:57:12
+================================================================
+
+[0       ]Utility.cpp(257): 64-bit operating system.
+[2       ]MRP.cpp(1020): Failed to copy ampa.exe.
+AOMEI Partition Assistant 6.1.2 Technician Edition
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		1953525168 (931.51GB)	(121601,255,63,512)		HGST HTS541010B7E610 (GPT Disk)
+1		500118192 (238.47GB)	(31130,255,63,512)		SAMSUNG MZVPW256HEGL-000H1 (GPT Disk)
+2		15728640 (7.50GB)	(979,255,63,512)		Generic Flash Disk       (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		Other       	262144     (128.00MB)	0          (0KB)	262144     (128.00MB)	None                	GPT,MSR		34             		262177         (16,81,35)		0           (0,0,35)			0		
+0	2		D:		NTFS(3.1)   	976629759  (465.69GB)	394144056  (187.94GB)	582485703  (277.75GB)	None                	GPT,Data		264192         		976893951      (60808,213,13)		0           (16,113,34)			8		Relys
+0	3		E:		NTFS(3.1)   	976631182  (465.69GB)	856462088  (408.39GB)	120169094  (57.30GB)	None                	GPT,Data		976893952      		1953525134     (121601,80,30)		0           (60808,213,14)			8		WorkStation
+
+1	1		*:		NTFS(3.1)   	1083391    (529.00MB)	20480      (10.00MB)	1062911    (519.00MB)	None                	GPT,WRE		2048           		1085439        (67,144,13)		0           (0,32,33)			8		»Ö¸´
+1	2		*:		FAT32       	204800     (100.00MB)	61920      (30.23MB)	142880     (69.77MB)	Sys                 	GPT,EFI		1085440        		1290239        (80,79,63)		0           (67,144,14)			2		
+1	3		*:		Other       	32768      (16.00MB)	0          (0KB)	32768      (16.00MB)	None                	GPT,MSR		1290240        		1323007        (82,90,8)		0           (80,80,1)			0		
+1	4		C:		NTFS(3.1)   	498794495  (237.84GB)	283194848  (135.04GB)	215599647  (102.81GB)	Boot                	GPT,Data		1323008        		500117503      (31130,223,5)		0           (82,90,9)			8		
+
+2	1		*:		FAT32       	15726592   (7.50GB)	30704      (14.99MB)	15695888   (7.48GB)	Act                 	Primary		2048           		15728639       (979,15,60)		0           (0,32,33)			8		
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 
+
+==========================User Operations==============================
+1.Clearing Disk
+	Hard Disk:		3
+ 	Wipe Data:		NO
+ 	Disk Size:		7.50GB
+
+=======================================================================
+
+[2       ]operation.cpp(3064): Failed to GetPart in UnlockTask.
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		1953525168 (931.51GB)	(121601,255,63,512)		HGST HTS541010B7E610 (GPT Disk)
+1		500118192 (238.47GB)	(31130,255,63,512)		SAMSUNG MZVPW256HEGL-000H1 (GPT Disk)
+2		15728640 (7.50GB)	(979,255,63,512)		Generic Flash Disk       (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		Other       	262144     (128.00MB)	0          (0KB)	262144     (128.00MB)	None                	GPT,MSR		34             		262177         (16,81,35)		0           (0,0,35)			0		
+0	2		D:		NTFS(3.1)   	976629759  (465.69GB)	394144064  (187.94GB)	582485695  (277.75GB)	None                	GPT,Data		264192         		976893951      (60808,213,13)		0           (16,113,34)			8		Relys
+0	3		E:		NTFS(3.1)   	976631182  (465.69GB)	856462088  (408.39GB)	120169094  (57.30GB)	None                	GPT,Data		976893952      		1953525134     (121601,80,30)		0           (60808,213,14)			8		WorkStation
+
+1	1		*:		NTFS(3.1)   	1083391    (529.00MB)	20480      (10.00MB)	1062911    (519.00MB)	None                	GPT,WRE		2048           		1085439        (67,144,13)		0           (0,32,33)			8		»Ö¸´
+1	2		*:		FAT32       	204800     (100.00MB)	61920      (30.23MB)	142880     (69.77MB)	Sys                 	GPT,EFI		1085440        		1290239        (80,79,63)		0           (67,144,14)			2		
+1	3		*:		Other       	32768      (16.00MB)	0          (0KB)	32768      (16.00MB)	None                	GPT,MSR		1290240        		1323007        (82,90,8)		0           (80,80,1)			0		
+1	4		C:		NTFS(3.1)   	498794495  (237.84GB)	283194888  (135.04GB)	215599607  (102.81GB)	Boot                	GPT,Data		1323008        		500117503      (31130,223,5)		0           (82,90,9)			8		
+
+2	0		*:		Unallocated 	15724544   (7.50GB)	0          (0KB)	15724544   (7.50GB)	None                	Logical		0              		15724543       (978,205,59)		0           (0,0,1)			0		
+
+
+==========================User Operations==============================
+1.Rebuild MBR
+	Hard Disk:		3
+ 	Disk Size:		7.50GB
+
+=======================================================================
+
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		1953525168 (931.51GB)	(121601,255,63,512)		HGST HTS541010B7E610 (GPT Disk)
+1		500118192 (238.47GB)	(31130,255,63,512)		SAMSUNG MZVPW256HEGL-000H1 (GPT Disk)
+2		15728640 (7.50GB)	(979,255,63,512)		Generic Flash Disk       (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		Other       	262144     (128.00MB)	0          (0KB)	262144     (128.00MB)	None                	GPT,MSR		34             		262177         (16,81,35)		0           (0,0,35)			0		
+0	2		D:		NTFS(3.1)   	976629759  (465.69GB)	394144072  (187.94GB)	582485687  (277.75GB)	None                	GPT,Data		264192         		976893951      (60808,213,13)		0           (16,113,34)			8		Relys
+0	3		E:		NTFS(3.1)   	976631182  (465.69GB)	856462088  (408.39GB)	120169094  (57.30GB)	None                	GPT,Data		976893952      		1953525134     (121601,80,30)		0           (60808,213,14)			8		WorkStation
+
+1	1		*:		NTFS(3.1)   	1083391    (529.00MB)	20480      (10.00MB)	1062911    (519.00MB)	None                	GPT,WRE		2048           		1085439        (67,144,13)		0           (0,32,33)			8		»Ö¸´
+1	2		*:		FAT32       	204800     (100.00MB)	61920      (30.23MB)	142880     (69.77MB)	Sys                 	GPT,EFI		1085440        		1290239        (80,79,63)		0           (67,144,14)			2		
+1	3		*:		Other       	32768      (16.00MB)	0          (0KB)	32768      (16.00MB)	None                	GPT,MSR		1290240        		1323007        (82,90,8)		0           (80,80,1)			0		
+1	4		C:		NTFS(3.1)   	498794495  (237.84GB)	283194888  (135.04GB)	215599607  (102.81GB)	Boot                	GPT,Data		1323008        		500117503      (31130,223,5)		0           (82,90,9)			8		
+
+2	0		*:		Unallocated 	15724544   (7.50GB)	0          (0KB)	15724544   (7.50GB)	None                	Logical		0              		15724543       (978,205,59)		0           (0,0,1)			0		
+
+
+==========================User Operations==============================
+1.Creating Partition
+	Hard Disk:		3
+ 	Drive Letter:		G:
+ 	File System:		FAT32
+ 	Partition Label:	
+ 	Size:			7.49GB
+ 	Start Sector:		2048
+ 	PtStart Sector:		2048
+ 	Total Sector:		15709522
+ 	PtTotal Sector:		15709522
+ 	Logical/Primary:	Primary
+ 	Cluster Size:		8
+
+=======================================================================
+
+[0       ]symlink.cpp(50): Failed to ZwQuerySymbolicLinkObject.
+[0       ]symlink.cpp(50): Failed to ZwQuerySymbolicLinkObject.
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		1953525168 (931.51GB)	(121601,255,63,512)		HGST HTS541010B7E610 (GPT Disk)
+1		500118192 (238.47GB)	(31130,255,63,512)		SAMSUNG MZVPW256HEGL-000H1 (GPT Disk)
+2		15728640 (7.50GB)	(979,255,63,512)		Generic Flash Disk       (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		Other       	262144     (128.00MB)	0          (0KB)	262144     (128.00MB)	None                	GPT,MSR		34             		262177         (16,81,35)		0           (0,0,35)			0		
+0	2		D:		NTFS(3.1)   	976629759  (465.69GB)	394144088  (187.94GB)	582485671  (277.75GB)	None                	GPT,Data		264192         		976893951      (60808,213,13)		0           (16,113,34)			8		Relys
+0	3		E:		NTFS(3.1)   	976631182  (465.69GB)	856462088  (408.39GB)	120169094  (57.30GB)	None                	GPT,Data		976893952      		1953525134     (121601,80,30)		0           (60808,213,14)			8		WorkStation
+
+1	1		*:		NTFS(3.1)   	1083391    (529.00MB)	20480      (10.00MB)	1062911    (519.00MB)	None                	GPT,WRE		2048           		1085439        (67,144,13)		0           (0,32,33)			8		»Ö¸´
+1	2		*:		FAT32       	204800     (100.00MB)	61920      (30.23MB)	142880     (69.77MB)	Sys                 	GPT,EFI		1085440        		1290239        (80,79,63)		0           (67,144,14)			2		
+1	3		*:		Other       	32768      (16.00MB)	0          (0KB)	32768      (16.00MB)	None                	GPT,MSR		1290240        		1323007        (82,90,8)		0           (80,80,1)			0		
+1	4		C:		NTFS(3.1)   	498794495  (237.84GB)	283194888  (135.04GB)	215599607  (102.81GB)	Boot                	GPT,Data		1323008        		500117503      (31130,223,5)		0           (82,90,9)			8		
+
+2	1		G:		FAT32       	15709522   (7.49GB)	34880      (17.03MB)	15674642   (7.47GB)	None                	Primary		2048           		15711569       (977,254,63)		0           (0,32,33)			8		
+

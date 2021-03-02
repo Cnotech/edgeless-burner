@@ -1,0 +1,53 @@
+Partition Assistant log is as follows:
+
+====================== System Information ======================
+Module Path: D:\Desktop\Edgeless\启动盘制作工具训练场\core\PartAssist\PartAssist.exe
+Product Name: Windows 10 Enterprise
+Service Package: 
+OS Version: 6.3
+Total Memory: 8079 MB
+Available Memory: 5376 MB
+System Root: C:\Windows
+Processor Architecture: AMD64
+Processor Number: 12
+Current Time: 2020-2-12 22:56:49
+================================================================
+
+[0       ]Utility.cpp(257): 64-bit operating system.
+[2       ]MRP.cpp(1020): Failed to copy ampa.exe.
+AOMEI Partition Assistant 6.1.2 Technician Edition
+[0       ]fatlabel.cpp(184): Failed to get label for FAT32.
+
+
+
+//////////////////////////// Reload Disk Information ////////////////////////////
+
+
+Disks Summary:
+================================================================
+Disk Index	Total Sector		Geometry			Product Name
+----------	------------		--------			------------
+0		1953525168 (931.51GB)	(121601,255,63,512)		HGST HTS541010B7E610 (GPT Disk)
+1		500118192 (238.47GB)	(31130,255,63,512)		SAMSUNG MZVPW256HEGL-000H1 (GPT Disk)
+2		62668800 (29.88GB)	(3900,255,63,512)		Samsung Flash Drive      (Base Disk)
+
+
+Partitions Summary:
+================================================================
+Disk	Partition	Drive Letter	File System	Total Sector		Used Sector		Free Sector		Partition Status	Pri/Log		DBR Start Sector	End Sector      			MBR Start Sector			Cluster Size	Volume Label
+----	---------	------------	-----------	------------		-----------		-----------		----------------	-------		----------------	----------------			----------------			------------	------------
+0	1		*:		Other       	262144     (128.00MB)	0          (0KB)	262144     (128.00MB)	None                	GPT,MSR		34             		262177         (16,81,35)		0           (0,0,35)			0		
+0	2		D:		NTFS(3.1)   	976629759  (465.69GB)	254164696  (121.20GB)	722465063  (344.50GB)	None                	GPT,Data		264192         		976893951      (60808,213,13)		0           (16,113,34)			8		Relys
+0	3		E:		NTFS(3.1)   	976631182  (465.69GB)	589157640  (280.93GB)	387473542  (184.76GB)	None                	GPT,Data		976893952      		1953525134     (121601,80,30)		0           (60808,213,14)			8		WorkStation
+
+1	1		*:		NTFS(3.1)   	1083391    (529.00MB)	20480      (10.00MB)	1062911    (519.00MB)	None                	GPT,WRE		2048           		1085439        (67,144,13)		0           (0,32,33)			8		恢复
+1	2		*:		FAT32       	204800     (100.00MB)	61918      (30.23MB)	142882     (69.77MB)	Sys                 	GPT,EFI		1085440        		1290239        (80,79,63)		0           (67,144,14)			2		
+1	3		*:		Other       	32768      (16.00MB)	0          (0KB)	32768      (16.00MB)	None                	GPT,MSR		1290240        		1323007        (82,90,8)		0           (80,80,1)			0		
+1	4		C:		NTFS(3.1)   	498794495  (237.84GB)	152906112  (72.91GB)	345888383  (164.93GB)	Boot                	GPT,Data		1323008        		500117503      (31130,223,5)		0           (82,90,9)			8		
+
+2	1		F:		FAT32       	61270784   (29.22GB)	30136      (14.71MB)	61240648   (29.20GB)	None                	Primary		256            		61271039       (3813,241,12)		0           (0,4,5)			32		USB_DISK
+2	2		G:		FAT16       	1397760    (682.50MB)	1387296    (677.39MB)	10464      (5.11MB)	Act Hid             	Primary		61271040       		62668799       (3900,242,54)		0           (3813,241,13)			32		Edgeless
+
+================================================================
+AOMEI Partition Assistant Is Working...
+ 

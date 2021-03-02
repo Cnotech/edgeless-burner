@@ -1,0 +1,40 @@
+CALL @windows1
+
+_SUB windows1,W300H150,选择临时目录,,X:\Users\Icon\shortcut\update.ico,,
+LABE Label1,L40T20W400H15,OTA需要一个可用空间大于2GB的临时目录
+ITEM Button1,L110T60W80H30,浏览,call browse
+_END
+
+_SUB browse
+BROW Tag,*D:\EOTA,,选择临时目录（不能使用X分区）
+MSTR disk=0,1,%Tag%
+//TIPS %disk%,%Tag%,2000,4,
+IFEX %disk%:\<2048,call retry1
+IFEX |%disk%==X,call retry2
+FIND $%Tag%=,!
+{
+    IFEX [%disk%:\>=2048 & |%disk%<>X],call set
+}
+_END
+
+
+_SUB set
+exec =!cmd /c "echo %Tag%>X:\Users\StartOTA.txt"
+file %ProgramFiles%\Edgeless\启动盘制作工具=>%Tag%\EOTA
+file "X:\Users\Default\Desktop\制作启动盘.lnk"
+link "X:\Users\Default\Desktop\制作启动盘","%Tag%\EOTA\制作启动盘.exe",,"X:\Users\Icon\shortcut\usbburner.ico",0
+exec "X:\Users\Default\Desktop\制作启动盘.LNK"
+kill \选择临时目录
+_END
+
+
+
+_SUB retry1,W300H120,磁盘空间不足,,X:\Users\Icon\shortcut\update.ico,,
+LABE Label1,L30T20W300H20,目标磁盘 %disk% 可用空间小于2GB，请重新选择
+ITEM Button1,L110T55W75H25,确定,kill \磁盘空间不足
+_END
+
+_SUB retry2,W300H120,分区不可用,,X:\Users\Icon\shortcut\update.ico,,
+LABE Label1,L50T20W300H20,临时目录不能在X分区内，请重新选择
+ITEM Button1,L110T55W75H25,确定,kill \分区不可用
+_END
